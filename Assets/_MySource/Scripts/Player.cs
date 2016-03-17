@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
-	Vector3 forceUp = new Vector3(0, 400, 0);
+	Vector3 forceUp = new Vector3(0, 200, 0);
 	Vector3 defaultPos = new Vector3(0, 0, 0);
 	Rigidbody playerRigidbody;
 
