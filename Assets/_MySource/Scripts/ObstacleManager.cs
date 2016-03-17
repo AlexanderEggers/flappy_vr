@@ -11,7 +11,6 @@ public class ObstacleManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 	}
 
 	void createObstacles() {
