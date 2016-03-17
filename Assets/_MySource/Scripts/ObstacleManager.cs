@@ -14,6 +14,7 @@ public class ObstacleManager : MonoBehaviour {
 	}
 
 	void createObstacles() {
-		Instantiate (obstacle);
+        Vector3 randomPosition = new Vector3(transform.position.x, Random.Range(-1, 3), transform.position.z);
+		Instantiate (obstacle, randomPosition, Quaternion.identity);
 	}
 }
